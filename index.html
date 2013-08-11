@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>easyTicket</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+
+
+        <style type="text/css">
+            body {
+                background: #101B2F;
+                font-family: "open_sansregular","Segoe UI","Segoe WP","Helvetica Neue",sans-serif;
+                color: #C5C5C5;
+                font-size: 1.5em;
+            }
+
+            .step {
+                text-align: center;
+                width: 650px;
+            }
+
+            .step ul {
+                text-align: left;
+            }
+
+            h2 {
+                color: #11A9CB;
+                font-family: 'cadenaregular', "Segoe UI","Segoe WP","Helvetica Neue",sans-serif;
+                font-size: 2.6em;
+                border-bottom: 2px solid #FF6A1F;
+            }
+            h1 {
+                color: #11A9CB;
+                font-family: 'cadenaregular', "Segoe UI","Segoe WP","Helvetica Neue",sans-serif;
+                font-size: 3.8em;
+            }
+
+            .text {
+                font-size: 1.3em;
+                text-align: left;
+            }
+
+            .ss {
+                width: 50%;
+            }
+
+            /*#intro {
+                width: 450px;
+                height: 450px;
+            }*/
+            .canvas {
+                width: 120%;
+                margin-left: -60px;
+            }
+
+            .como img {
+                vertical-align: top;
+            }
+
+            #time img {
+                width: 60px;   
+            }
+
+        </style>
+        <script src="scripts/vendor/modernizr.min.js"></script>
+        <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+    </head>
+    <body>
+        <div id="impress">
+            <div id="intro" class="step slide" data-x="0" data-y="0" data-z="0" data-scale="1">
+                <h2>easyTicket</h2>
+                <p class="text">Solução mobile para comprar tickets de consumação em eventos.</p>
+                <img class="ss" src="imgs/iPhone.png">
+            </div>
+
+            <div class="step" data-x="2000" data-y="0">
+                <h2>Problema</h2>
+
+                <p class="text">Imensas filas no caixa para comprar comida e bebida em eventos geram insatisfação do cliente e muitas vezes levam à desistência da compra.</p>
+            </div>
+
+            <div id="solucao" class="step" data-x="4000" data-y="0" data-z="0" data-scale="1">
+                <h2>Solução</h2>
+                <p class="text">Usando o easyTicket o usuário de smartphone consegue comprar tickets de produtos de estabelecimentos credenciados no evento.</p>
+                <p class="text">Basta usar o celular para comprar e depois retirar seus tickets em um totem para ir direto e retirar seus produtos.</p>
+            </div>
+
+            <div class="step" data-x="4000" data-y="8000">
+                <h2>Customer Segments</h2>
+                <ul>
+                    <li><p class="text">Usuários de smartphones</p></li>
+                    <li><p class="text">Organizadores de eventos</p></li>
+                    <li><p class="text">Empresas terceirizadas de bares</p></li>
+                </ul>
+            </div>
+<!-- 
+            <div class="step" data-x="6000" data-y="8000">
+                <h2>Market Players</h2>
+
+                <img src="http://s3-sa-east-1.amazonaws.com/mobipass-website-static-files/images/logo.png">&nbsp;&nbsp;<img src="http://tabber.com.br/static//images/tabber_logo_transp.png" >
+            </div> -->
+
+            <div class="step" data-x="8000" data-y="8000">
+                <h2>Fonte de receita</h2>
+
+                <ul>
+                    <li><p class="text">Cobrar uma taxa do usuário de cada transação.</p></li>
+                    <li><p class="text">Cobrar uma taxa do estabelecimento por evento.</p></li>
+                </ul>
+            </div>
+
+            <div id="passo1" class="step como" data-x="6000" data-y="2000" data-z="-1000" data-rotate="90">
+                <h2>Canvas final</h2>
+                <img class="canvas" src="imgs/canvas1.png">
+            </div>
+             <div id="passo2" class="step como" data-x="7000" data-y="3000" data-z="-4000" data-rotate="90">
+                <h2>Canvas de hipóteses</h2>
+                <img class="canvas" src="imgs/canvas2.png">
+            </div>
+             <div id="passo3" class="step como" data-x="8000" data-y="4000" data-z="-7000" data-rotate="90">
+                <h2>Canvas de testes</h2>
+                <img class="canvas" src="imgs/canvas3.png">
+            </div>
+
+            <div class="step" id="validacoes" data-x="6000" data-y="6500">
+                <h2>Validações</h2>
+                <ul>
+                    <li><p>Eventos: Lollapoalooza, Rcok In Rio, Aquarius, ...</p></li>
+                    <li><p>100% das pessoas acham cansativo ficar na fila para comprar bebida e comida em eventos</p></li>
+                    <li><p>42% comprar tickes antes para evitar a fila</p></li>
+                    <li><p>A maioria dos entrevistados pagaria uma taxa de até 10% do pedido pela conveniência</p></li>
+                    <li><p>Estabelecimentos pagariam uma taxa pela manutenção e suporte do serviço</p></li>
+                </ul>
+            </div>
+
+            <div class="step" id="roadmap" data-x="8000" data-y="6500">
+                <h2>Road map</h2>
+                <ul>
+                    <li><p>Identificar e perseguir parcerias</p></li>
+                    <li><p>Encontrar uma precificação justa</p></li>
+                    <li><p>Buscar alguma fidelização com o cliente</p></li>
+                    <li><p>Participar de pelo menos 1 evento até o final do ano</p></li>
+                </ul>
+            </div>
+
+            <div class="step" id="time" data-x="10000" data-y="8000">
+                <h2>Time</h2>
+                <ul>
+                    <li><p class="text"> Adriano Nascimento</p></li>
+                    <li><p class="text"> André Cytryn</p></li>
+                    <li><p class="text"> Michael Lovisaro</p></li>
+                    <li><p class="text"> Pedro Rocha</p></li>
+                    <li><p class="text"> Simone Hubner</p></li>
+                </ul>
+            </div>            
+
+            <div class="step" data-x="12000" data-y="8000">
+                <h1>Obrigado!</h1>
+            </div>
+        </div>
+        <script src="scripts/vendor/impress.js"></script>
+        <script>impress().init();</script>
+    </body>
+</html>
